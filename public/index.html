@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+
+    <body>
+        <h1>Add and Delete!</h1>
+        <div id="flex-container">
+                    <div class="columns">
+                        <section id="store">
+                            <h3>Some of our current collection</h3>
+                        </section>
+                        <div id = "jewel-details">
+
+                        </div>
+                    </div>
+            <div id="form-flexer">
+                
+                    
+                <section id="adding-section"> 
+                
+
+                    <h3 id="add-jewelry">Add Jewelry</h3>
+                    <form id="add-JEWELS-form" method="post" class="form-class">
+                        <input type="hidden" name="_id" value="-1" />
+                        <p>
+                            <label for="name "> Potential Jewelry Idea:</label>
+                            <input type="text" id="name" name="name" required />
+                        </p>
+                        <p>
+                            <label for="description">Description:</label>
+                            <input type="text" id="description" name="description" required />
+                        </p>
+
+
+                        <p id="jewels-added">
+                            <label class="inline">Materials:</label>
+                            <a href="#" id="add-jewelry-link">Add Materials</a>
+                            <section id="jewel-boxes">
+                                
+                            </section>
+                        </p>
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+
+                </section>
+
+                <section id="edit-section">
+                    <h3 id="edit-jewelry">Edit Jewelry</h3>
+                    <form id="edit-JEWELS-form" method="post" class="form-class">
+                        <input type="hidden" name="_id" value="-1" /><!--change text to hiidden-->
+                        <p>
+                            <label for="name "> Which would you like to change?:</label>
+                            <input type="text" id="name" name="name" required />
+                        </p>
+                        <p>
+                            <label for="description"> New Description:</label>
+                            <input type="text" id="description" name="description" required />
+                        </p>
+
+                        <p id="jewels-added">
+                            <label class="inline"> New Materials:</label>
+                            <a href="#" id="edit-jewelry-link">Add Materials</a>
+                            <section id="edit-jewel-boxes">
+                                
+                            </section>
+                        </p>
+
+                        <a href="#" id="delete-jewelry-link">Delete This Item</a>
+
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+                </section>
+                    
+            </div> 
+         </div>
+    </body>
+
+</html>

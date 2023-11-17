@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(202, 125, 125);
+}
+
+
+.columns {
+    display: flex;
+}
+
+#jewel-details {
+    border: dotted;
+    margin-left: 20px;
+    width: 72%;
+}
+
+#store {
+    border: solid plum;
+    padding-left: 27px;
+    padding-right: 161px;
+}
+
+#store a{
+    text-decoration: none;
+    color: black;
+}
+
+#store a:hover{
+    text-decoration: none;
+    color: rgb(206, 67, 67);
+}
+
+#jewel-boxes input{
+    display: block;
+}
+
+#edit-jewel-boxes input{
+    display:block;
+}
+
+
+
+#adding-section {
+    margin-top: 16px;
+    padding-left: 5%;
+    padding-top: 10px;
+    border: dotted;
+    width: 25%;
+    margin-left: 16%;
+}
+
+#add-jewelry-link {
+    text-decoration: none;
+    color: black;
+}
+
+#add-jewelry-link:hover {
+    text-decoration: none;
+    color: rgb(206, 67, 67);
+}
+
+#form-flexer {
+    display: flex;
+}
+
+#edit-section {
+    margin-top: 16px;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-right: 5%;
+    border: dotted;
+}
